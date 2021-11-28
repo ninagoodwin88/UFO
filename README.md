@@ -3,16 +3,14 @@ Using Javascript, bootstrap to make a UFO sightings page
 
 # Overview of the Project
 
-For this project we are building an HTML page that will allow us to pull up information from a javascript data file using filters on the page. We want to use filters since we have many different sightings that occurred throughout the U.S.-- based on the different areas or what type of shape of the sighting.
+For this project we are building an HTML page that will allow us to pull up information from a javascript data file using filters on the page. Due to the sightings having different shapes and occurring in different areas, we used the filter method in Javascript, to show the differences.
 
-# HTML Page and our results
+# Results
 
-<img width="1346" alt="Screen Shot 2020-10-03 at 11 08 01 AM" src="https://user-images.githubusercontent.com/67278193/94994945-de585280-0568-11eb-836d-0c2a02e839c9.png">
+[https://github.com/ninagoodwin88/UFO/blob/main/Resources/UFO_1.PNG]
+When the client visits the website, they will see the basic opening and title with the image at the top, as the client scrolls down they will begin to see all the data and filters that are on the website(please see image below). The image below has five filters to choose from: date, city, state, country, and shape. These may be use one at a time or multiple filters can be entered at the same time to search for various UFO sitings.
 
-Once entering the website our client will see the basic opening and title with the picture at the top, as the client scrolls down they will begin to see all the data and filters that we have(which is in the image below). From this image below we have 5 different filters to choose from; the date, city, state, country & shape. You can choose any of these filters enter the search bar, then the HTML page will show all of the sightings for that specific search. Multiple filters can be entered at the same time to further inspect the data in the specific search bar that is entered.
-
-<img width="1254" alt="filters" src="https://user-images.githubusercontent.com/67278193/94994943-dbf5f880-0568-11eb-8740-9c614604bd8a.png">
-
+[https://github.com/ninagoodwin88/UFO/blob/main/Resources/UFO_2.PNG]
 # Summary
 
-We have created a page that looks clean and allows the user to filter through the different sitings in our data set using the search bars created. One big drawback about our search bar is trying to validate the sitings that happened which can be better described in the data. If we had how many people were at the siting would be a helpful element to validating the claims. Having as much data as possible for website would make it as good as it can possible be. My two recommendations for improving this website would 1. to have more data that has more information including how many people were at the site 2. adding another filter to find the sitings by lengt and last but not least have a site that would be constantly updating our data adding new sitings to our page.
+We have created a page that allows you to filter the data by: city, state, country, and shape. However, there are a couple of drawbacks in the website, one is the lattitude and longitude are not included in the search filters. Clients may want to return to the exact location were the UFO was sited. Additionally, there are no pictures included of the UFO siting on the website. Therefore, my two recommendations would be to add an API call for the latitude and longitude of the siting and a possible filter to include pictures if there are any.
